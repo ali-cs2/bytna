@@ -1,0 +1,36 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/app-files/index.html"
+    },
+    {
+      "source": "/style.css",
+      "destination": "/app-files/style.css"
+    },
+    {
+      "source": "/index.js",
+      "destination": "/app-files/index.js"
+    },
+    {
+      "source": "/data.js",
+      "destination": "/app-files/data.js"
+    },
+    {
+      "source": "/favicon.png",
+      "destination": "/app-files/favicon.png"
+    },
+    {
+      "source": "/img/:path*",
+      "destination": "/app-files/img/:path*"
+    },
+    {
+      "source": "/tiles/:path*",
+      "destination": "/app-files/tiles/:path*"
+    },
+    {
+      "source": "/vendor/:path*",
+      "destination": "/app-files/vendor/:path*"
+    }
+  ]
+}
