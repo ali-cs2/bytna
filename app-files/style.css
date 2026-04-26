@@ -54,6 +54,41 @@ body {
   -webkit-backdrop-filter: blur(8px);
 }
 
+#vrEntryButton {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 25;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 112px;
+  padding: 11px 18px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+  background: rgba(12, 12, 12, 0.58);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+}
+
+#vrEntryButton:hover {
+  transform: translateY(-1px);
+  background: rgba(18, 18, 18, 0.74);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+#vrEntryButton:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.72);
+  outline-offset: 2px;
+}
+
 .hotspot {
   position: relative;
 }
@@ -99,5 +134,12 @@ body {
     height: 56px;
     margin-left: -28px;
     margin-top: -28px;
+  }
+
+  #vrEntryButton {
+    right: 18px;
+    bottom: 18px;
+    min-width: 104px;
+    padding: 10px 16px;
   }
 }
