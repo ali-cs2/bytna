@@ -5,14 +5,6 @@
       "destination": "/app-files/index.html"
     },
     {
-      "source": "/vr",
-      "destination": "/app-files/vr/index.html"
-    },
-    {
-      "source": "/vr/",
-      "destination": "/app-files/vr/index.html"
-    },
-    {
       "source": "/style.css",
       "destination": "/app-files/style.css"
     },
@@ -39,10 +31,6 @@
     {
       "source": "/vendor/:path*",
       "destination": "/app-files/vendor/:path*"
-    },
-    {
-      "source": "/vr/:path*",
-      "destination": "/app-files/vr/:path*"
     }
   ]
 }
